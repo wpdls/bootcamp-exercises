@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-family: Linux Libertine','Georgia','Times', sans'serif;
+    font-size: 1.8em;
+    color: balck;
+    font-weight: normal;
+    border-bottom: 1px solid #999999;
+}
+
+h2 {
+
+}
+
+a{
+    color: #0645ad;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
