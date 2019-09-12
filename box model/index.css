@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    background-image: url("grid.png");
+    height: 16rem;
+}
+
+.mybox {
+    display: none;
+    background-color: orange;
+    padding: 1rem;
+    margin: 2rem;
+    width: 15rem;
+    height: 7rem;
+}
+
+header {
+    padding:1rem;
+    background-color: white;
+}
+
+.nav-link {
+    display: inline;
+    padding: 0.5rem;
+}
+
+.thingy {
+    width: 5rem;
+    height: 5rem;
+    background-color: forestgreen;
+    position: absolute;
+    top: 15rem; 
+}
+
+.container {
+    height: 10rem;
+    border: 2px solid black;
+}
+
+.hi {
+    font-size: 18px;
+}
