@@ -7,9 +7,9 @@ body {
 }
 
 h1 {
-    font-family: Linux Libertine','Georgia','Times', sans'serif;
+    font-family: 'Linux Libertine','Georgia','Times', sans serif;
     font-size: 1.8em;
-    color: balck;
+    color: black;
     font-weight: normal;
     border-bottom: 1px solid #999999;
 }

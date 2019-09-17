@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box
+}
+.heading {
+    background-image: url(graphics/banner.jpg);
+    color: white;
+    position: relative;
+    background-size: cover;
+    padding: 10rem;
+    background-repeat: no-repeat;
+   
+    /* background-position: left top; */
+}
+
+.container {
+    
+    border-bottom: 3px solid white;
+    padding: 5px;
+    
+}
+
+.box {
+    width: 40em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.BIK {
+    border-bottom: 3px solid white;
+    padding: 1rem;
+    width: 5px;
+}
+
+html {
+    font-family: "Roboto Normal";
+}
+
+body{
+    font-family: "Roboto Normal";
+    margin: 0;
+    font-size: 18px;
+}
+
+.banner{
+    text-align: center;
+}
+
+h1 {
+    font-family: "Roboto Heavy";
+    font-size: 40px;
+}
+
+h1.part1 {
+    color: black;
+}
+
+h1.part2 {
+    color: white;
+}
+
+.mission {
+    background-color: #FFE964;
+    padding: 4rem 10rem;
+    display: block;
+    text-align: center;
+    
+}
+
+.aboutus {
+    background-color: #FFFFFF;
+    padding: 4rem 10rem;
+}
+
+.ourteam {
+    background-color: #FF523D;
+    color: white;
+    padding: 4rem 10rem;
+    text-align: center;
+}
+
+.contact {
+    background-color: #223C88;
+    color: white;
+    padding: 4rem 10rem;
+}
+
+.bold{
+    font-family: "Roboto Bold";
+    font-weight: bold;
+}
+
+.people img {
+    width: 200px;
+    height: 200px;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 3rem 0rem 6rem 0rem;
+}
+
+.mission, .ourteam, .people, .contact {
+    
+}
