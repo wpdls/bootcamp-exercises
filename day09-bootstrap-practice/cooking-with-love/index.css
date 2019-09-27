@@ -1,0 +1,20 @@
+body, html {
+    margin:0;
+}
+
+.bg {
+    height: 800px;
+    background-image: url(/banner.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 500%;
+    
+}
+
+.navbar {
+    color: blue;
+}
+
+.card {
+    font-size: 1.5rem;
+}

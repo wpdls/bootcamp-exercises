@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 7rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    height: 30vh;
+    width: 70rem;
+    padding: 1rem;
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+.padlock {
+   
+   height: 8rem;
+}
+
+.hover {
+padding: 3rem;
+}
