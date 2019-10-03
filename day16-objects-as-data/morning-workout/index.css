@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    display: flex;
+    background-color: rgb(50, 50, 163);
+    color: white;
+    height: 100vh;
+    width: 40%;
+}
+
+#main {
+    padding: 20px;
+  }
+

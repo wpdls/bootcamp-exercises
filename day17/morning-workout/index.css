@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+
+.chat {
+    background-color: white;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    
+}
+
+.conversation_chats {
+    padding: 2rem;;
+    margin-bottom: 1rem;
+
+    
+}
+
+.local {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.local p {
+    background-color: lightgrey;
+    border-radius: .5rem;
+}
+.remote {
+    flex-direction: row;
+    
+    
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.remote p {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: .5rem;
+}
+
