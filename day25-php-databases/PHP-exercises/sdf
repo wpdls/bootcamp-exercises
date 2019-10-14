@@ -1,0 +1,22 @@
+id: integer
+first name: short string
+last name: short string
+gpa: decimal
+dob: date
+major/subject: short string
+department: short string
+email: short string
+scholarship: boolean 
+nationality: short string
+address: short string
+dorm: boolean
+medical_issue: string
+mentor: short string
+year_of_study: short string 
+graduation_day: date
+assistant_status: boolean
+insurance_number: short string
+gender: short string
+marriage status: boolean
+phone_number: short string
+
