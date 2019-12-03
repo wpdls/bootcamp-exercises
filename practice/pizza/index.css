@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+    margin:0;
+    background-color: gray;
+    color:white;
+}
+
+.frontpage {
+    margin:0rem;
+    padding:0rem;
+    background-image: url("/images/Canva\ -\ Delicious\ Homemade\ Pizza.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* header */
+.bars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.container {
+    margin: 1rem;
+    display: inline-block;
+    
+    cursor: pointer;
+  }
+  
+
+  .bar1, .bar2, .bar3 {
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 6px;
+  }
+  
+  .bar1, .bar3 {
+      width: 38px;
+    }
+  .bar2 {
+      width: 32px;
+    }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  /* button */
+
+  .center {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center h2 {
+      font-size: 20px;
+  }
+
+  .button {
+    cursor: pointer;
+
+      background-color: rgb(218, 145, 10);
+      box-shadow: 0 2px 30px 0 rgb(218, 145, 10);
+      height: 70px;
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      font-size: 30px;
+      font-stretch: 100%;
+      border-radius: 15px;
+      border: white dotted;
+  }
+
+  .button a {
+      text-decoration: none;
+      color: black;
+  }

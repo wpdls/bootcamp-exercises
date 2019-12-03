@@ -1,0 +1,20 @@
+// function myFunction(x) {
+//     x.classList.toggle("change");
+//   }
+
+
+const change = (x) => {
+    let container = document.querySelector('.container');
+    container.classList.toggle('change');
+}
+
+
+
+// container.addEventListener('click', (x) => {
+    
+//     if (!x.target.matches('change')) {
+//         container.classList.add('change')
+//     } else {
+//         container.classList.remove('change')
+//     }
+// });
